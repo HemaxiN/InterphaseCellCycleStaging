@@ -10,9 +10,9 @@ Code developed to perform interphase cell cycle staging of nuclei stained with D
 * msk_dir: directory containing the segmentation masks corresponding to the DAPI images in directory img_dir (To obtain the segmentation masks for the DAPI images use the code available in https://github.com/HemaxiN/YOLO_UNET.)
 
 
-* save_dir: directory containing the DAPI images, after performing classification, nuclei classified as S/G2 will have a green bounding box and nuclei classified as G1 will have a red bounding box in the images present in this directory, as shown in the following figure:
+* save_dir: directory containing the DAPI images
 
-
+To perform cell cycle staging run the file classifier.py, after performing classification nuclei classified as S/G2 will have a green bounding box and nuclei classified as G1 will have a red bounding box in the images present in the "save_dir", as shown in the following figure:
 
 
 <p float="center">
