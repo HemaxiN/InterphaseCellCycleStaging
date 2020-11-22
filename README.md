@@ -15,6 +15,6 @@ Code developed to perform interphase cell cycle staging of nuclei stained with D
 
 
 
-<p float="left">
+<p float="center">
 <img width="347" height="260" src="img/MAX_24_7IF_Z60_decon1Imag_ALT.png"/>
 </p>
