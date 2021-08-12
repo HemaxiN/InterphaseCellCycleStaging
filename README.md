@@ -18,3 +18,5 @@ To perform cell cycle staging run the file classifier.py, after performing class
 <p float="center">
 <img width="347" height="260" src="img/MAX_24_7IF_Z60_decon1Imag_ALT.png"/>
 </p>
+
+The datasets are publicly available at https://drive.google.com/drive/folders/1zK0rFARvw3KOLp_-_ab7OYdYb1iVo7P4?usp=sharing.
