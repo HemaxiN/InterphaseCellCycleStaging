@@ -4,7 +4,7 @@ from joblib import load
 import cv2
 import os
 
-def classify(df, save_path):
+def classify(df, save_path, imgs_dir):
 	clf = load('svm_all.joblib') #load the trained model
 	matrix = df.as_matrix(columns = ['norm_area', 'norm_intensity'])
 	X_test = matrix.astype(float).reshape(matrix.shape)
@@ -13,7 +13,7 @@ def classify(df, save_path):
 	for index, row in df.iterrows():
 	    if (y_pred[i] == 1):  ##nuclei labeled as s/g2
 	        img = row['Image']
-	        image = cv2.imread(os.path.join(save_path, img))
+	        image = cv2.imread(os.path.join(imgs_dir, img))
 	        bbox_aux = row['bbox']
 	        xmin = bbox_aux[1]
 	        ymin = bbox_aux[0]
@@ -25,7 +25,7 @@ def classify(df, save_path):
 	        
 	    else:
 	        img = row['Image']
-	        image = cv2.imread(os.path.join(save_path, img ))
+	        image = cv2.imread(os.path.join(imgs_dir, img))
 	        bbox_aux = row['bbox']
 	        xmin = bbox_aux[1]
 	        ymin = bbox_aux[0]
