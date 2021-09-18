@@ -18,13 +18,8 @@ To run this code please change the following directories in the file `classifier
 To perform cell cycle staging run the file `classifier.py` after changing the `img_dir`, `msk_dir` and `save_dir`. After performing classification nuclei classified as S/G2 will have a green bounding box and nuclei classified as G1 will have a red bounding box in the images present in `save_dir`, as shown in the following figure:
 
 
-<p float="center">
-<img width="347" height="260" src="img/MAX_24_7IF_Z60_decon1Imag_ALT.png"/>
-</p>
-
-
 <p align="center">
-  <img width="460" height="300" src="img/MAX_24_7IF_Z60_decon1Imag_ALT.png">
+  <img width="347" height="260" src="img/MAX_24_7IF_Z60_decon1Imag_ALT.png">
 </p>
 
 Additionally, a `results.csv` file containing detailed information regarding nuclei classification will be saved in `save_dir`. It has the following structure:
