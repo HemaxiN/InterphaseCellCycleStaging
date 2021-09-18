@@ -1,10 +1,4 @@
-from sklearn.model_selection import train_test_split
-from sklearn.utils import class_weight
-from sklearn import svm
 import numpy as np
-from sklearn.model_selection import GridSearchCV
-from sklearn.metrics import classification_report, confusion_matrix
-from sklearn.svm import SVC
 import pandas as pd
 from joblib import load
 import cv2
