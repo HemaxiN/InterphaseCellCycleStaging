@@ -22,6 +22,6 @@ To perform cell cycle staging run the file `classifier.py` after changing the `i
 <img width="347" height="260" src="img/MAX_24_7IF_Z60_decon1Imag_ALT.png"/>
 </p>
 
-Additionally, a .csv file containing detailed information regarding nuclei classification will be saved in `save_dir`.
+Additionally, a `results.csv` file containing detailed information regarding nuclei classification will be saved in `save_dir`.
 
 ## How to cite
