@@ -7,7 +7,7 @@ from skimage.segmentation import clear_border
 from skimage.measure import regionprops, label
 import skimage
 
-def obtain_features(images_path, predictions_path):
+def obtain_features(images_path, predictions_path, save_path):
 	#create the dataframe
 	features = pd.DataFrame(columns = ["Image", "Area", "Total Intensity", "Mean Intensity", 
 									  "Nucleus Patch", "bbox"])
@@ -15,6 +15,8 @@ def obtain_features(images_path, predictions_path):
 	for img, pred in zip(os.listdir(images_path), os.listdir(predictions_path)):
 		#read the image
 		image = cv2.imread(os.path.join(images_path, img), cv2.IMREAD_GRAYSCALE)
+		#save the image in the results folder
+		cv2.imwrite(os.path.join(save_path,img), image)
 		#folder containing binary masks 
 		masks = cv2.imread(os.path.join(predictions_path, pred), cv2.IMREAD_GRAYSCALE)
 		masks = skimage.morphology.remove_small_objects(masks , min_size = 20)        
@@ -94,4 +96,3 @@ def process_dataframe(df_aux):
 	df_aux['norm_intensity'] = normalized_total_intensity_df
 	    
 	return df_aux
-
