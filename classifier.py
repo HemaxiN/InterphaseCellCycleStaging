@@ -7,9 +7,9 @@ import numpy as np
 import pandas as pd
 import os
 
-img_dir = r'C:\Users\hemax\Desktop\Nova pasta\deconv_imgs' ##directory where the images are saved
-msk_dir = r'C:\Users\hemax\Desktop\Nova pasta\masks'  ##directory where the labeled masks are saved
-save_dir = r'C:\Users\hemax\Desktop\Nova pasta\results' ##directory where the images will be saved
+img_dir = r'C:\Users\hemaxi\Desktop\Nova pasta\deconv_imgs' ##directory where the images are saved
+msk_dir = r'C:\Users\hemaxi\Desktop\Nova pasta\masks'  ##directory where the labeled masks are saved
+save_dir = r'C:\Users\hemaxi\Desktop\Nova pasta\results' ##directory where the images will be saved
 ## after performing classification, nuclei classified as S/G2 will have a green bounding box
 ## and nuclei classified as G1 will have a red bounding box
 
