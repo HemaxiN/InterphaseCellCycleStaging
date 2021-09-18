@@ -2,6 +2,7 @@
 
 
 Code developed to perform interphase cell cycle staging of nuclei stained with DAPI. 
+If you are using this code in your research please [cite the paper](#how-to-cite).
 
 ## How to use
 
