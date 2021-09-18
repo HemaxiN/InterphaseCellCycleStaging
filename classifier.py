@@ -15,6 +15,6 @@ save_dir = r'C:\Users\hemaxi\Desktop\cell_cycle\class' ##directory where the ima
 def cell_cycle_classifier(imgs_dir, msks_dir, save_dir):
 	features = obtain_features(imgs_dir, msks_dir)
 	features = process_dataframe(features)
-	classify(features, save_dir)
+	classify(features, save_dir, imgs_dir)
 
 cell_cycle_classifier(img_dir, msk_dir, save_dir)
