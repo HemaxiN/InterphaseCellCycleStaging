@@ -34,3 +34,4 @@ def classify(df, save_path, imgs_dir):
 	        cv2.rectangle(image, (xmin, ymin), (xmax, ymax), (0, 0, 255), 10)
 	        cv2.imwrite(os.path.join(save_path, img ), image)
 	        i = i+1
+	return df, y_pred_vec
