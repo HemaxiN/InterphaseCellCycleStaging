@@ -10,7 +10,7 @@ To run this code please change the following directories in the file `classifier
 * `img_dir:` directory containing the DAPI images
 
 
-* `msk_dir:` directory containing the segmentation masks corresponding to the DAPI images in directory img_dir (To obtain the segmentation masks for the DAPI images use the code available in https://github.com/HemaxiN/YOLO_UNET.)
+* `msk_dir:` directory containing the segmentation masks corresponding to the DAPI images in directory `img_dir` (To obtain the segmentation masks for the DAPI images use the code available in https://github.com/HemaxiN/YOLO_UNET.)
 
 
 * `save_dir:` directory where the results will be saved
