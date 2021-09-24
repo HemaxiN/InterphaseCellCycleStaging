@@ -7,7 +7,7 @@ If you are using this code in your research please [cite the paper](#how-to-cite
 ## Overview
 
 
-![](https://github.com/HemaxiN/InterphaseCellCycleStaging/blob/main/imgs/overview.png)
+![](https://github.com/HemaxiN/InterphaseCellCycleStaging/blob/main/img/overview.png)
 
 
 ## How to use
