@@ -4,6 +4,12 @@
 Code developed to perform interphase cell cycle staging of nuclei stained with DAPI. 
 If you are using this code in your research please [cite the paper](#how-to-cite).
 
+## Overview
+
+
+![](https://github.com/HemaxiN/InterphaseCellCycleStaging/blob/main/imgs/overview.png)
+
+
 ## How to use
 
 To run this code please change the following directories in the file `classifier.py`:
