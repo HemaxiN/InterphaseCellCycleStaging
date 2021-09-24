@@ -33,6 +33,11 @@ Additionally, a `results.csv` file containing detailed information regarding nuc
 
 Each row contains the information for each image in `img_dir`. The first, second and third columns represent the image name, number of nuclei classified as G1 and number of nuclei classified as S/G2, respectively.
 
+## Requirements
+
+This implementation requires the packages listed in `requirements.txt`.
+
+
 ## How to cite
 
 ```bibtex
