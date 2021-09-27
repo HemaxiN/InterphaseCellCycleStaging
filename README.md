@@ -33,8 +33,8 @@ Additionally, a `results.csv` file containing detailed information regarding nuc
 
 | Image | pred_G1 | pred_S_G2 |
 | ----- | ------- | --------- |
-| MAX_304_S13_W1_SW480_CDT1_60Zs_decon_ALT.tif | 57 | 27 |
-| MAX_306_S13_W1_SW480_CDT1_60Zs_decon_ALT.tif | 49 | 28 |
+| image1.tif | 57 | 27 |
+| image2.tif | 49 | 28 |
 | ..... | ....... | ......... |
 
 Each row contains the information for each image in `img_dir`. The first, second and third columns represent the image name, number of nuclei classified as G1 and number of nuclei classified as S/G2, respectively.
