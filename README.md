@@ -48,12 +48,12 @@ This implementation requires the packages listed in `requirements.txt`.
 
 ```bibtex
 @article{narotamo2021machine,
-  title={A Machine Learning Approach for Single Cell Interphase Cell Cycle Staging},
-  author={Narotamo, Hemaxi and Fernandes, Maria Sofia and Moreira, Ana Margarida and Melo, Soraia and Seruca, Raquel and Silveira, Margarida and Sanches, João Miguel},
-  journal={Scientific reports},
-  volume={},
-  number={},
-  pages={13},
+  title={A machine learning approach for single cell interphase cell cycle staging},
+  author={Narotamo, Hemaxi and Fernandes, Maria Sofia and Moreira, Ana Margarida and Melo, Soraia and Seruca, Raquel and Silveira, Margarida and Sanches, Jo{\~a}o Miguel},
+  journal={Scientific Reports},
+  volume={11},
+  number={1},
+  pages={1--13},
   year={2021},
   publisher={Nature Publishing Group}
 }
